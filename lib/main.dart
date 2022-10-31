@@ -8,11 +8,13 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  
+  
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ignite Stocks',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blueGrey,
-        scaffoldBackgroundColor: Color.fromARGB(255, 20, 41, 51)
+        scaffoldBackgroundColor: Color.fromARGB(255, 31, 31, 31)
       ),
       initialRoute: '/main_view',
       routes: {
@@ -33,22 +35,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-// class MainView extends StatefulWidget {
-//   const MainView({super.key});
-//
-//   @override
-//   State<MainView> createState() => _MainViewState();
-// }
-//
-// class _MainViewState extends State<MainView> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: Text("Some Title"),
-//       ),
-//       body: Center(child: Text("Some body"),)
-//     );
-//   }
